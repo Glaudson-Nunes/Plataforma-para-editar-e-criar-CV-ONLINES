@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <link rel="stylesheet" type="text/css" href="responsive.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editor de CV ONLINE</title>
+    <link rel="icon" href="ICONS/icons8-currículo-aberto-48.png">
+
+</head>
+
+<body>
+
+    <h1 class="H1_NONE">VERSÂO MOBILE NÂO DISPONIVEL NO MOMENTO</h1>
+    
+<section class="container-inicial">
+
+    <div class="infor-inicial">
+
+        <div class="logo">
+
+            <h2 class="logoc">Criar CV</h2>
+
+        </div>
+
+        <div class="titulo1">
+
+          <div class="text1">
+
+            <span class="text-laranja">Editor de CV fácil </span>
+            <span class="text-azul">Online</span>
+
+          </div>
+
+          <div class="text2">
+
+            <h4 class="text-laranja">Crie seu curriculo profissional em poucos minutos</h4>
+
+            <button class="bt-criar-cv">CRIAR MEU CV</button>
+
+          </div>
+
+          <div class="text3">
+
+            <div class="box-inicial">
+
+                <h4>1.Personalize com a cor que você desejar</h4>
+                <img src = "IMGS/icons8-ink-pen-100.png" width="75px">
+
+            </div>
+
+            <div class="box-inicial">
+
+                <h4>2.Baixe seu curriculo em PDF</h4>
+                <img src="IMGS/icons8-pdf-100.png" width="75px">
+
+            </div>
+
+            <div class="box-inicial">
+
+                <h4>3.Imprima seu curriculo em segundos</h4>
+                <img src="IMGS/icons8-imprimir-mensagem-100.png" width="75px">
+            
+            </div>
+
+          </div>
+
+        </div>
+
+    </div>
+
+    <div class="img-inicla">
+
+        <img src="IMGS/img_apresentaçao.png" width="500px">
+
+
+    </div>
+
+
+</section>
+
+
+<section class="container-criacao">
+
+    <div class="box-opcoes">
+
+        <div class="fases">
+
+         <div class="b1"> <h4 class="verificado-text"> CONTATO  </h4>
+            
+            <span class="verificado"></span>
+        
+        </div>
+
+         <div class="b1">
+            
+            <h4 class="text-desabilitado"> EXPERIÊNCIA </h4>
+            
+            <span class="desebilitado"></span>
+        
+        </div>
+
+         <div class="b1">
+            
+            <h4 class="text-desabilitado"> FORMACÂO </h4>
+            <span class="desebilitado"></span>
+        
+        </div>
+
+         <div class="b1">
+            
+            <h4 class="text-desabilitado"> CONHECIMENTOS </h4>
+            <span class="desebilitado"></span>
+        
+        </div>
+
+         <div class="b1">
+            
+            <h4 class="text-desabilitado"> SOBRE </h4>
+            <span class="desebilitado"></span>
+        
+        </div>
+
+         <div class="b1">
+            
+            <h4 class="text-desabilitado"> CONCLUIR </h4>
+            <span class="desebilitado"></span>
+        
+        </div>
+
+        </div>
+
+        <div class="text-dados">
+
+            <h1>Inclua seus <span class="text-azul">dados</span> de contatos</h1>
+            <h4>Assim um recrutador podera entrar em contato com você.</h4>
+
+        </div>
+
+        <div class="box-inputs-contatos">
+
+            <div class="inputs">
+
+                <input  class="input-global" type="text" placeholder="Nome" oninput="addNome(this)" maxlength="20">
+                <input  class="input-global" type="text" placeholder="Sobre-Nome" oninput="addSnomeF(this)"  maxlength="20">
+
+            </div>
+
+            <div class="inputs">
+
+                <input id = "input-endereco" class="input-maior" type="text" placeholder="Endereço" oninput="addeEndereco(this)" maxlength="30">
+
+            </div>
+
+            <div class="inputs">
+
+                <input class="input-global" type="text" placeholder="Cidade" maxlength="20" oninput="addCidade(this)">
+                <input class="input-global" type="text" placeholder="Cep" maxlength="10" oninput="addCep(this)">
+
+            </div>
+
+            <div class="inputs">
+
+                <input class="input-global" type="number" placeholder="Telefone" maxlength="15" oninput="addTele(this)">
+                <input class="input-global" type="email" placeholder="E-mail" maxlength="27" oninput="addEmail(this)">
+
+            </div>
+
+            <div class="bt-avancar1">
+
+                <button class="btnext1">Avançar para Experiência</button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class = "box-experiencia">
+
+        <div class="fases">
+
+         <div class="b1"> <h4 class="verificado-text"> CONTATO  </h4>
+            
+            <span class="verificado"></span>
+        
+        </div>
+
+         <div class="b1">
+            
+            <h4 class="verificado-text"> EXPERIÊNCIA </h4>
+            
+            <span class="verificado"></span>
+        
+        </div>
+
+         <div class="b1">
+            
+            <h4 class="text-desabilitado"> FORMACÂO </h4>
+            <span class="desebilitado"></span>
+        
+        </div>
+
+         <div class="b1">
+            
+            <h4 class="text-desabilitado"> CONHECIMENTOS </h4>
+            <span class="desebilitado"></span>
+        
+        </div>
+
+         <div class="b1">
+            
+            <h4 class="text-desabilitado"> SOBRE </h4>
+            <span class="desebilitado"></span>
+        
+        </div>
+
+         <div class="b1">
+            
+            <h4 class="text-desabilitado"> CONCLUIR </h4>
+            <span class="desebilitado"></span>
+        
+        </div>
+
+        </div>
+
+        <div class="text-dados">
+
+            <h1><span class="text-azul">Compartilhe concosco</span> a sua experiência</h1>
+            <h4>Comece com o seu trabalho recente.</h4>
+
+        </div>
+
+        <div class="box-inputs-contatos">
+
+            <div class="inputs">
+
+                <input class="input-global inputExpe" type="text" placeholder="Cargo" oninput="addNameCargo(this)" maxlength="35">
+
+            </div>
+
+            <div class="inputs-text-area">
+
+            <p class="desc">Descriçâo</p>
+            <input id = "ipp" class="inputExpe" type="text" placeholder="Escreva a sua experiência de trabalho" oninput="Descricao(this)" maxlength="250">
+               
+
+            </div>
+
+            <div class="bt-avancar1">
+
+                <button class="btavncarFormacao">Avançar para Formaçâo</button>
+                <button id = "vtc" class="btavoltarcontatos">Voltar para Contatos</button>
+
+
+            </div>
+
+        </div>
+
+        <div class="msg-box_erro">
+
+            <div class="mais-infor">
+
+                <img src="ICONS/icons8-atenção-48.png" width="40px">
+                <h1>Mais Informaçôes necessaria</h1>
+
+            </div>
+
+            <div class="mais-infor2">
+
+                <h3>Você nâo listou nenhuma Experiência de trabalho</h3>
+
+                <div class="btns-expe">
+
+                    <button class="addExpe">Adcionar Experiência</button>
+                    <button class="Pular">Pular(nâo tenho experiência)</button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="box-formaçao">
+
+        <div class="fases">
+
+            <div class="b1"> <h4 class="verificado-text"> CONTATO  </h4>
+               
+               <span class="verificado"></span>
+           
+           </div>
+   
+            <div class="b1">
+               
+               <h4 class="verificado-text"> EXPERIÊNCIA </h4>
+               
+               <span class="verificado"></span>
+           
+           </div>
+   
+            <div class="b1">
+               
+               <h4 class="verificado-text"> FORMACÂO </h4>
+               <span  class="verificado"></span>
+           
+           </div>
+   
+            <div class="b1">
+               
+               <h4 class="text-desabilitado"> CONHECIMENTOS </h4>
+               <span class="desebilitado"></span>
+           
+           </div>
+   
+            <div class="b1">
+               
+               <h4 class="text-desabilitado"> SOBRE </h4>
+               <span class="desebilitado"></span>
+           
+           </div>
+   
+            <div class="b1">
+               
+               <h4 class="text-desabilitado"> CONCLUIR </h4>
+               <span class="desebilitado"></span>
+           
+           </div>
+   
+           </div>
+
+           
+        <div class="text-dados">
+
+            <h1><span class="text-azul">Insira</span> suas informaçôes sobre formaçâo</h1>
+            <h4>Informe um curso tecnico/bacharelado ou outro.</h4>
+
+        </div>
+
+        <div class="box-inputs-contatos">
+
+            <div class="inputs">
+
+                <input class="input-global InputForm" type="text" placeholder="Instituiçâo/faculdade" oninput="addNamescola(this)" maxlength="80">
+                <input class="input-global InputForm" type="text" placeholder="Titulo/Certificado" oninput="addNameCertificado(this)" maxlength="80">
+
+            </div>
+
+            <div class="bt-avancar1">
+
+                <button class="btavancarConhecimentos"> Avançar Conhecimentos </button>
+                <button id = "VtExpe" class="btavoltarcontatos">Voltar para Experiência</button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="box-conhecimentos">
+
+        <div class="fases">
+
+            <div class="b1"> <h4 class="verificado-text"> CONTATO  </h4>
+               
+               <span class="verificado"></span>
+           
+           </div>
+   
+            <div class="b1">
+               
+               <h4 class="verificado-text"> EXPERIÊNCIA </h4>
+               
+               <span class="verificado"></span>
+           
+           </div>
+   
+            <div class="b1">
+               
+               <h4 class="verificado-text"> FORMACÂO </h4>
+               <span  class="verificado"></span>
+           
+           </div>
+   
+            <div class="b1">
+               
+               <h4  class="verificado-text"> CONHECIMENTOS </h4>
+               <span class="verificado"></span>
+           
+           </div>
+   
+            <div class="b1">
+               
+               <h4 class="text-desabilitado"> SOBRE </h4>
+               <span class="desebilitado"></span>
+           
+           </div>
+   
+            <div class="b1">
+               
+               <h4 class="text-desabilitado"> CONCLUIR </h4>
+               <span class="desebilitado"></span>
+           
+           </div>
+   
+           </div>
+
+           <div class="text-dados">
+
+            <h1><span class="text-azul">Conte para nós </span> quais seus conhecimentos</h1>
+            <h4>Comece com aquele que você tem mais experiência.</h4>
+
+        </div>
+
+        <div class="inputs">
+
+            <input class="input-global InputConhe" type="text" placeholder="Conhecimento" maxlength="100" oninput="addConhcimento(this)">
+            <p class="desc">Nivel:</p>
+            <div class="nivel-conhecimento">  <div class="leigo">  <span class="linha"></span> </div> <div class="iniciante"> </div> <div class="medio"> </div> <div class="experiente"> </div>  </div>
+
+        </div>
+
+        <div class="bt-avancar1">
+
+            <button class="btavncarSobre"> Avançar Sobre </button>
+            <button id = "vtF" class="btavoltarcontatos">Voltar para Formaçâo</button>
+
+        </div>
+
+    </div>
+
+    <div class="box-sobre">
+
+        <div class="fases">
+
+            <div class="b1"> <h4 class="verificado-text"> CONTATO  </h4>
+               
+               <span class="verificado"></span>
+           
+           </div>
+   
+            <div class="b1">
+               
+               <h4 class="verificado-text"> EXPERIÊNCIA </h4>
+               
+               <span class="verificado"></span>
+           
+           </div>
+   
+            <div class="b1">
+               
+               <h4 class="verificado-text"> FORMACÂO </h4>
+               <span  class="verificado"></span>
+           
+           </div>
+   
+            <div class="b1">
+               
+               <h4  class="verificado-text"> CONHECIMENTOS </h4>
+               <span class="verificado"></span>
+           
+           </div>
+   
+            <div class="b1">
+               
+               <h4 class="verificado-text"> SOBRE </h4>
+               <span class="verificado"></span>
+           
+           </div>
+   
+            <div class="b1">
+               
+               <h4 class="text-desabilitado"> CONCLUIR </h4>
+               <span class="desebilitado"></span>
+           
+           </div>
+   
+           </div>
+
+           <div class="text-dados">
+
+            <h1><span class="text-azul">Escreva </span> o seu resumo profissional</h1>
+            <h4>Fale um pouco da sua experiência geral.</h4>
+
+        </div>
+
+        <div class="inputs-text-area">
+
+            <p class="desc">Resumo</p>
+            <input id = "rr" class="InputResumo" type="text" placeholder="Escreva a sua experiência de trabalho" oninput="addTextSobre(this)" maxlength="350">
+               
+
+            </div>
+
+            <div class="bt-avancar1">
+
+                <button class="btAvanConcluir"> Avançar Concluir </button>
+                <button id = "vtConheci" class="btavoltarcontatos">Voltar para Conhecimentos</button>
+    
+            </div>
+
+    </div>
+
+
+    <div class="box-concluir">
+
+        <div class="fases">
+
+            <div class="b1"> <h4 class="verificado-text"> CONTATO  </h4>
+               
+               <span class="verificado"></span>
+           
+           </div>
+   
+            <div class="b1">
+               
+               <h4 class="verificado-text"> EXPERIÊNCIA </h4>
+               
+               <span class="verificado"></span>
+           
+           </div>
+   
+            <div class="b1">
+               
+               <h4 class="verificado-text"> FORMACÂO </h4>
+               <span  class="verificado"></span>
+           
+           </div>
+   
+            <div class="b1">
+               
+               <h4  class="verificado-text"> CONHECIMENTOS </h4>
+               <span class="verificado"></span>
+           
+           </div>
+   
+            <div class="b1">
+               
+               <h4 class="verificado-text"> SOBRE </h4>
+               <span class="verificado"></span>
+           
+           </div>
+   
+            <div class="b1">
+               
+               <h4  class="verificado-text"> CONCLUIR </h4>
+               <span class="verificado"></span>
+           
+           </div>
+   
+           </div>
+
+
+           <div class="alterar-fontes">
+
+            <h2>Alterar Fonte</h2>
+
+            <div class="box-fontes">
+
+                <h2 id = "Arial">Arial</h2>
+                <h2 id = "Franklin">Franklin</h2>
+                <h2 id = "Impact">Impact</h2>
+                <h2 id = "TimesNewRoman">Times New Roman</h2>
+                <h2 id = "Verdana">Verdana</h2>
+                <h2 id = "GillSans">Gill Sans</h2>
+                <h2 id = "monospace">Monospace</h2>
+                <h2 id = "SegoeUI">Segoe UI</h2>
+                <h2 id = "AnekLatin">Anek Latin</h2>
+
+            </div>
+
+           </div>
+
+           <div class="cor-da-foha-cor-da-faixa">
+
+            <div class="cor-folha">
+            
+            <h6>Alterar cor da folha</h6>
+            <img  src="ICONS/icons8-paint-palette-with-brush-96.png" width="50px">
+            <input class="inputColorFolha" type="color" oninput="cor_da_folha()">
+
+            </div>
+
+            <div class="cor-faixa">
+            
+                <h6>Alterar cor da faixa</h6>
+                <img  src="ICONS/icons8-paint-palette-with-brush-96.png" width="50px">
+                <input class="inputColorFaixa" type="color" oninput="cor_da_faixa()">
+    
+                </div>
+
+                <div class="cor-letras">
+            
+                    <h6>Alterar cor das letras</h6>
+                    <img src="ICONS/icons8-paint-palette-with-brush-96.png" width="50px">
+                    <input class="inputColorLetras" type="color" oninput="cor_letras()">
+        
+                    </div>
+           </div>
+
+           <div class="input-add-photo">
+
+            <h4>Adcionar Foto</h4>
+            <input class="addPHOTOperfil" type="file">
+
+           </div>
+
+           <div class="logo-redes">
+
+            <h4>Redes sociais</h4>
+
+           </div>
+
+           <div class="redes-sociais">
+
+            <input class="input-global" type="text" placeholder="GitHub" oninput="addTextGit(this)">
+            <input class="input-global" type="text" placeholder="Linkedln" oninput="addTextLinkdln(this)">
+            <input class="input-global" type="text" placeholder="Portfólio" oninput="addTextPortfolio(this)">
+
+           </div>
+
+           <div class="salvando">
+
+            <button class="btsalvarcv">Salvar em PDF</button>   
+            <button class="btaEditarDenovo">Editar Novamente</button>
+
+           </div>
+
+    </div>
+
+</section>
+
+<section class="contai">
+
+    <div class="container-folha1">
+
+        <div class="faixa">
+
+            <div class="box-foto">
+
+                <span class="receberFoto"></span>
+
+
+            </div>
+
+            <div class="add-sobre">
+                <h4 class="sobreM">SOBRE MIM</h4>
+                <h6 id = "text-sobre"></h6>
+
+            </div>
+
+            <div class="area-medias-sociais">
+
+                <div class="gt">
+
+                    <img class="iconGit" src="ICONS/icons8-github-50.png" width="34px">
+                    <a id = "textGit" class="text-r"></a>
+
+                </div>
+
+                <div class="link">
+
+                    <img class="iconLink" src="ICONS/icons8-linkedin-circundado-64.png" width="34px">
+                    <a id = "textLink" class="text-r"></a>
+
+                </div>
+
+                <div class="Port">
+
+                    <img class="iconPor" src="ICONS/icons8-pesquisa-no-navegador-50.png" width="34px">
+                    <a target="_blank" id = "textPort" class="text-r"></a>
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <div class="nome-sobre-nome-add">
+
+            <h1 id = "add-Nome"></h1>
+            <h1 id = "add-sobre-nome"></h1>
+
+        </div>
+
+        <div class="endereco-add">
+
+            <img class = "iconEndereco" src="ICONS/icons8-visita-50.png" width="16px">
+            <h4 id = "add_endereco"></h4>
+
+        </div>
+
+        <div class="cidade-cep-add">
+
+            <h4 id = "nameCidade"></h4>
+            <h4 id = "adnameCep"></h4>
+
+        </div>
+
+        <div class="tele-email">
+                    
+            <div class="tel">  <img id = "IconTele" src="ICONS/icons8-telefone-25.png" width="17px">  <h4 id = "addtelefone"></h4>   </div>
+            <div class="ema">  <img id = "IconEmail" src="ICONS/icons8-envelope-circulado-50.png" width="18px">  <h4 id = "addEmail"></h4> </div>
+
+        </div>
+
+        <div class="add-experiencia-profiss">
+
+            <div class="exp">
+
+                <p class="desc">EXPERIÊNCIA PROFISSIONAL</p>
+
+            </div>
+
+        </div>
+
+        <div class="box-add-exp">
+
+            <img class="iconExpe" src="ICONS/icons8-alfinete-de-mapa-50.png" width="15px">
+            <h4 id = "addName_cargo"></h4>
+
+        </div>
+
+
+        <div class="add-desc-exp">
+
+            <h6 id = "addDescriTex"></h6>
+
+        </div>
+
+            <div class="formacao-pro">
+
+                <p class="desc">FORMAÇÂO</p>
+
+            </div>
+
+            <div class="add-form">
+
+                <h6 id = "addNameEs"></h6>
+                <h6 id = "addTitu"></h6>
+
+            </div>
+
+            <div class="conhe-lis">
+
+                <p class="desc">CONHECIMENTOS</p>
+
+            </div>
+
+            <div class="add-conhecimento">
+
+                <h6 id = "addNameConhe"></h6>
+                <h6 id ="addNivel"></h6>
+
+            </div>
+
+    </div>
+
+</section>
+
+<script src="JS/config.js"></script>
+
+</body>
+
+</html>

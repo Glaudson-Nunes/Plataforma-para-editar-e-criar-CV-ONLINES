@@ -1,0 +1,334 @@
+@media screen and (max-width:376px){
+
+    .container-folha1{
+
+        display: none;
+    }
+
+    .img-inicla{
+
+        display: none;
+    }
+
+    .contai,.desc{
+
+        display: none;
+    }
+
+    .container-criacao{
+
+        width: 100%;
+        
+    }
+
+    .fases,.b1{
+
+        width: 100%;
+        height: 100%;
+    }
+
+    .fases h4{
+
+        font-size: 0.6rem;
+    }
+
+    .b1{
+
+        border-left: 1px solid #1111;
+        font-weight: bolder;
+    }
+
+    .box-opcoes,.box-experiencia,.box-formaçao,.box-conhecimentos,.box-sobre,.box-concluir,.msg-box_erro,.inputs-text-area,.container-inicial,.infor-inicial{
+
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+
+    .input-global,.input-maior,.btavncarFormacao,.btavancarConhecimentos,.btavncarSobre,.btAvanConcluir,.btnext1,.btavoltarcontatos,.btns-expe button,.nivel-conhecimento{
+
+        width: 150px;
+        text-align: center;
+    }
+
+    .leigo,.iniciante,.medio,.experiente{
+
+        width: 85px;
+    }
+
+    #ipp,#rr{
+
+        width: 100%;
+        height: 70px;
+    }
+
+    .btnext1,.btavoltarcontatos,.btavncarFormacao,.btavancarConhecimentos,.btavncarSobre,.btAvanConcluir,.btaEditarDenovo{
+
+        width: 290px;
+        margin-left: -250px;
+        padding: 10px;
+    }
+    
+    .text3{
+
+        gap: 40px;
+        flex-direction: column;
+    }
+
+    .text-laranja{
+
+        font-size: 2.5rem;
+        padding: 10px;
+    }
+
+    .salvando,.cor-da-foha-cor-da-faixa{
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .btaEditarDenovo,.btsalvarcv{
+
+        width: 150px;
+    }
+}
+
+
+@media screen and (max-width:415px){
+
+
+    .container-folha1{
+
+        display: none;
+    }
+
+    .img-inicla{
+
+        display: none;
+    }
+
+    .contai,.desc{
+
+        display: none;
+    }
+
+    .container-criacao{
+
+        width: 100%;
+        
+    }
+
+    .fases,.b1{
+
+        width: 100%;
+        height: 100%;
+        font-size: 0.8rem;
+        gap: 5px;
+    }
+
+    .fases h4{
+
+        font-size: 0.6rem;
+    }
+
+    .text-laranja{
+
+        font-size: 2.5rem;
+    }
+
+    .box-opcoes,.box-experiencia,.box-formaçao,.box-conhecimentos,.box-sobre,.box-concluir,.msg-box_erro,.inputs-text-area,.container-inicial,.infor-inicial{
+
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+
+    .input-global,.input-maior,.btavncarFormacao,.btavancarConhecimentos,.btavncarSobre,.btAvanConcluir,.btnext1,.btavoltarcontatos,.btns-expe button,.nivel-conhecimento{
+
+        width: 150px;
+        text-align: center;
+    }
+
+    .leigo,.iniciante,.medio,.experiente{
+
+        width: 85px;
+    }
+
+    #ipp,#rr{
+
+        width: 100%;
+        height: 70px;
+    }
+
+    .btnext1,.btavoltarcontatos,.btavncarFormacao,.btavancarConhecimentos,.btavncarSobre,.btAvanConcluir,.btaEditarDenovo{
+
+        width: 290px;
+        margin-left: -250px;
+        padding: 10px;
+    }
+    
+    .text3{
+
+        gap: 40px;
+        flex-direction: column;
+    }
+
+    .salvando,.cor-da-foha-cor-da-faixa{
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .btaEditarDenovo,.btsalvarcv{
+
+        width: 150px;
+    }
+
+    .box-inputs-contatos,.bt-avancar1{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+}
+
+@media screen and (max-width:1100px){
+
+    
+    .container-folha1{
+
+        display: none;
+    }
+
+    .img-inicla{
+
+        display: none;
+    }
+
+    .contai,.desc{
+
+        display: none;
+    }
+
+    .container-criacao{
+
+        width: 100%;
+        
+    }
+
+    .fases,.b1{
+
+        width: 100%;
+        height: 100%;
+        font-size: 0.8rem;
+        gap: 5px;
+    }
+
+    .box-opcoes,.box-experiencia,.box-formaçao,.box-conhecimentos,.box-sobre,.box-concluir,.msg-box_erro,.inputs-text-area,.container-inicial,.infor-inicial{
+
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+
+    .input-global,.input-maior,.btavncarFormacao,.btavancarConhecimentos,.btavncarSobre,.btAvanConcluir,.btnext1,.btavoltarcontatos,.btns-expe button,.nivel-conhecimento{
+
+        width: 150px;
+        text-align: center;
+    }
+
+    .leigo,.iniciante,.medio,.experiente{
+
+        width: 85px;
+    }
+
+    #ipp,#rr{
+
+        width: 100%;
+        height: 70px;
+    }
+
+    .btnext1,.btavoltarcontatos,.btavncarFormacao,.btavancarConhecimentos,.btavncarSobre,.btAvanConcluir,.btaEditarDenovo{
+
+        width: 290px;
+        margin-left: -250px;
+        padding: 10px;
+    }
+    
+    .text3{
+
+        gap: 40px;
+        flex-direction: column;
+    }
+
+    .salvando,.cor-da-foha-cor-da-faixa{
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .btaEditarDenovo,.btsalvarcv{
+
+        width: 150px;
+    }
+
+    .box-inputs-contatos,.bt-avancar1{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+}
+
+
+@media screen and (max-width:320px){
+
+    .fases,.b1{
+
+        width: 100%;
+        height: 100%;
+        font-size: 0.6rem;
+    }
+
+    .input-global,.input-maior,.btavncarFormacao,.btavancarConhecimentos,.btavncarSobre,.btAvanConcluir,.btnext1,.btavoltarcontatos,.btns-expe button,.nivel-conhecimento{
+
+        width: 130px;
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width:2500px){
+
+  
+
+    .container-folha1{
+
+        width: 980px;
+        height: 1320px;
+        font-size: 1.7rem;
+    }
+
+    .faixa{
+
+        width: 370px;
+        height: 1320px;
+        font-size: 1.3rem;
+    }
+
+}
